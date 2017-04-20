@@ -128,7 +128,7 @@ addons:
     # For certbot-nginx integration testing
     - nginx-light
     - openssl
-    # for apacheconftest
+    # for apacheconftest and lock tests during integration tests
     - apache2
     - libapache2-mod-wsgi
     - libapache2-mod-macro
